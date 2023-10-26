@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "todd-howard"
+version = "0.1.0"
+description = ""
+authors = ["ziontee113 <ziontee113@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+jupynium = "^0.2.1"
+ipykernel = "^6.26.0"
+numpy = "^1.26.1"
+matplotlib = "^3.8.0"
+spacy = "^3.7.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
